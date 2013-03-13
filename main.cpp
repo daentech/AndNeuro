@@ -18,7 +18,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     QmlApplicationViewer viewer;
     viewer.setOrientation(QmlApplicationViewer::ScreenOrientationAuto);
-    viewer.setMainQmlFile(QLatin1String("qml/AdNeuro/main.qml"));
+    viewer.setMainQmlFile(QLatin1String("qml/AndNeuro/main.qml"));
     viewer.showExpanded();
 
     QObject *rootObject = dynamic_cast<QObject*>(viewer.rootObject());
