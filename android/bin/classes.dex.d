@@ -1,0 +1,26 @@
+/Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/bin/classes.dex : \
+/Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/bin/classes/org/kde/necessitas/example/AdNeuro/BuildConfig.class \
+/Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/bin/classes/org/kde/necessitas/example/AdNeuro/R$array.class \
+/Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/bin/classes/org/kde/necessitas/example/AdNeuro/R$attr.class \
+/Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/bin/classes/org/kde/necessitas/example/AdNeuro/R$drawable.class \
+/Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/bin/classes/org/kde/necessitas/example/AdNeuro/R$layout.class \
+/Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/bin/classes/org/kde/necessitas/example/AdNeuro/R$string.class \
+/Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/bin/classes/org/kde/necessitas/example/AdNeuro/R.class \
+/Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/bin/classes/org/kde/necessitas/ministro/IMinistro$Stub$Proxy.class \
+/Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/bin/classes/org/kde/necessitas/ministro/IMinistro$Stub.class \
+/Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/bin/classes/org/kde/necessitas/ministro/IMinistro.class \
+/Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/bin/classes/org/kde/necessitas/ministro/IMinistroCallback$Stub$Proxy.class \
+/Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/bin/classes/org/kde/necessitas/ministro/IMinistroCallback$Stub.class \
+/Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/bin/classes/org/kde/necessitas/ministro/IMinistroCallback.class \
+/Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/bin/classes/org/kde/necessitas/origo/QtActivity$1.class \
+/Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/bin/classes/org/kde/necessitas/origo/QtActivity$2.class \
+/Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/bin/classes/org/kde/necessitas/origo/QtActivity$3$1$1.class \
+/Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/bin/classes/org/kde/necessitas/origo/QtActivity$3$1.class \
+/Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/bin/classes/org/kde/necessitas/origo/QtActivity$3.class \
+/Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/bin/classes/org/kde/necessitas/origo/QtActivity$4.class \
+/Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/bin/classes/org/kde/necessitas/origo/QtActivity$5.class \
+/Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/bin/classes/org/kde/necessitas/origo/QtActivity$6.class \
+/Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/bin/classes/org/kde/necessitas/origo/QtActivity.class \
+/Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/bin/classes/org/kde/necessitas/origo/QtApplication$InvokeResult.class \
+/Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/bin/classes/org/kde/necessitas/origo/QtApplication.class \
+/Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/bin/dexedLibs/annotations-00de3cfe8ff7d6232ca94d6f213e3207.jar \

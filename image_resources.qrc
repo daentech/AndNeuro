@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/lineedit.png</file>
+        <file>images/lineedit.sci</file>
+        <file>images/stripes.png</file>
+    </qresource>
+</RCC>
