@@ -22,3 +22,5 @@ Makefile
 *.pro.user
 
 .DS_STORE
+
+android/bin/*

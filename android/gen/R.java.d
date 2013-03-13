@@ -1,4 +1,4 @@
-/Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/gen/org/kde/necessitas/example/AdNeuro/R.java \
+/Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/gen/org/kde/necessitas/example/AndNeuro/R.java \
  : /Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/res/drawable/icon.png \
 /Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/res/drawable/logo.png \
 /Volumes/Data/Users/ddg/Uni/Fourth Year/Project/AdNeuro/android/res/drawable-hdpi/icon.png \
