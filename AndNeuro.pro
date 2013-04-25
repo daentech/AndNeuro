@@ -81,3 +81,5 @@ macx: PRE_TARGETDEPS += $$PWD/../../../../Desktop/decryptor_libraries/libsbs2emo
 
 RESOURCES += \
     image_resources.qrc
+
+FORMS +=

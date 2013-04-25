@@ -13,4 +13,5 @@ void MyCallback::getData(Sbs2Packet *packet)
         emit timeTick8();
 
     emit valueSignal((QVariant)thisPacket->filteredValues["O2"]);
+
 }

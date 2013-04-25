@@ -10,14 +10,15 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 {
     QScopedPointer<QApplication> app(createApplication(argc, argv));
 
-    qDebug() << "catalogPath: "<<Sbs2Common::setDefaultCatalogPath();
-    qDebug() << "rootAppPath: "<<Sbs2Common::setDefaultRootAppPath();
-
+    //qDebug() << "catalogPath: "<<Sbs2Common::setDefaultCatalogPath();
+    //qDebug() << "rootAppPath: "<<Sbs2Common::setDefaultRootAppPath();
+    Sbs2Common::setDefaultCatalogPath();
     MyCallback* myCallback = new MyCallback();
     Sbs2EmotivDataReader* sbs2DataReader = Sbs2EmotivDataReader::New(myCallback,0);
 
     QmlApplicationViewer viewer;
-    viewer.setOrientation(QmlApplicationViewer::ScreenOrientationAuto);
+    viewer.setOrientation(QmlApplicationViewer::ScreenOrientationLockPortrait);
+    //viewer.setMainQmlFile(QLatin1String("qml/AndNeuro/start.qml"));
     viewer.setMainQmlFile(QLatin1String("qml/AndNeuro/main.qml"));
     viewer.showExpanded();
 
@@ -26,6 +27,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QTimer* timer = new QTimer();
 
     QObject::connect(timer, SIGNAL(timeout()), rootObject, SLOT(timerTick()));
+
     timer->start(33);
 
     QObject::connect(myCallback,SIGNAL(timeTick8()),rootObject,SLOT(timeTick()));
