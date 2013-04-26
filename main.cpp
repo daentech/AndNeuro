@@ -3,12 +3,15 @@
 #include <QtDeclarative>
 
 #include "main.h"
+#include "fileio.h"
 #include <mycallback.h>
 #include <hardware/emotiv/sbs2emotivdatareader.h>
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
     QScopedPointer<QApplication> app(createApplication(argc, argv));
+
+    qmlRegisterType<FileIO, 1>("FileIO", 1, 0, "FileIO");
 
     //qDebug() << "catalogPath: "<<Sbs2Common::setDefaultCatalogPath();
     //qDebug() << "rootAppPath: "<<Sbs2Common::setDefaultRootAppPath();
@@ -25,6 +28,10 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QObject *rootObject = dynamic_cast<QObject*>(viewer.rootObject());
 
     QTimer* timer = new QTimer();
+
+    // Connect the start and stop recording signals/slots
+    QObject::connect(rootObject, SIGNAL(startRecording(QString, QString)), myCallback, SLOT(startRecording(QString,QString)));
+    QObject::connect(rootObject, SIGNAL(stopRecording()), myCallback, SLOT(stopRecording()));
 
     QObject::connect(timer, SIGNAL(timeout()), rootObject, SLOT(timerTick()));
 
